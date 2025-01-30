@@ -12,13 +12,8 @@ var (
 	s string  = "2222.222222"
 )
 
-//func TestSprinf(t *testing.T) {
-//assert.Equal(t, s, floattostring.Sprintf(f))
-//}
-
 func TestStrconv(t *testing.T) {
-	//assert.Equal(t, s, floattostring.Strconv(f, 'f'))
-
+	fmt.Println("How do the formats look like")
 	fmt.Println("b:", floattostring.Strconv(16.2, 'b'))
 	fmt.Println("e:", floattostring.Strconv(17.2, 'e'))
 	fmt.Println("E:", floattostring.Strconv(18.2, 'E'))
